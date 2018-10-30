@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14;
+    color: white;
+    background-color: #555;
+    line-height: 1.6em;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 80px;
+    font-size: 75px;
+}
+#container {
+    width: 980px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+#slider {
+    width: 940px;
+    height: 350px;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: 2px solid #7777;
+    border-radius: 10px;
+}
+#slider img {
+    width: 940px;
+    height: 350px;
+}
+#prev, #next {
+    float: left;
+    margin-top: 150px;
+    position: relative;
+    cursor: pointer;
+    z-index: 100;
+}
+#prev {
+    margin-right: -45px;
+}
+#next {
+    margin-left: -45px;
+}
+.slide-copy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(120, 120, 120, .5)
+}
+.slide {
+    position: relative;
+}
